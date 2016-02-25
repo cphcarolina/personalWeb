@@ -18,6 +18,19 @@ body {
 	padding-left: 0;
 }
 
+.title-container {	
+	width: 100%;
+	background: url("https://farm6.staticflickr.com/5745/23214992144_7fc329a3ea_h.jpg");
+	//background-color: green;
+	margin: 0;
+	border: 0;
+	padding: 2vh;
+	font-family: 'Bubbler One', sans-serif;
+	color: white;
+}
+
+
+/* Navbars */
 .my-navbar-bottom {
 	background-color: #494949;
 	/*padding-top: 5vh;*/
@@ -35,4 +48,48 @@ body {
 	height: 100%;
 	display: flex;
 	align-items: center;
+	padding-left: 20vh;
+	padding-top: -10vh;
+}
+
+.my-dropdown {
+	color: white;
+	font-size: 3vh;
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+}
+
+.my-dropdown:hover {
+	color: white;
+	font-size: 3vh;
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+}
+
+.open {
+	/* TODO no consigo que cambie */
+	color: white;
+	font-size: 3vh;
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+}
+
+.my-dropdown-menu {
+	background-color: transparent;
+	box-shadow: none;	
+	border: 0;
+}
+
+.my-dropdown-menu li a {
+	color: white;
+	font-weight: bold;
+	//font-size: 3vh;
+	padding: 0;
+}
+
+.my-dropdown-menu li a:hover {
+	background-color: transparent;
 }

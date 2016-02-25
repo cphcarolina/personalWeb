@@ -2,25 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.initial-cage {
-	width: 100%;
+.initial-title-container {
 	height: 90vh;
-	background: url("https://farm6.staticflickr.com/5745/23214992144_7fc329a3ea_h.jpg");
-	//background: url("wood-3.jpg");
-	//background-color: green;
-	margin: 0;
-	border: 0;
-	padding: 25vh;
-	font-family: 'Bubbler One', sans-serif;
 }
 
-.initial-cage h1 {
-	color: white;
+.initial-title-container h1 {
 	font-size: 5em;
 }
 
-.initial-cage h3 {
-	color: white;
+.initial-title-container h3 {
 	margin: 0;
 	padding-left: 5vh;
 }
